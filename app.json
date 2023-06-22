@@ -3,12 +3,12 @@
   "description": "Simple & High Speed Telegram File Rename Bot For only personal use",                  
   "keywords": ["telegram", "Rename-bot", "pyrogram"],
   "logo": "https://graph.org/file/0f20570db175553686f09.jpg",
-  "repository": "https://github.com/pogodrawings/Simple-rename-bot",
+  "repository": "https://github.com/pogodrawings/Simple-renamer-bot",
   "env": {
-    "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},"value": "4857766"
-    "API_HASH": {"description": "Get this value from https://my.telegram.org", "required": true}, "value": "6c3c6facf5598a4b318e138f8c407028"                    
-    "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
-    "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "required": true}, "value": "1596559467"
+    "API_ID": {"description": "Get this value from https://my.telegram.org","value": "4857766", "required": true}
+    "API_HASH": {"description": "Get this value from https://my.telegram.org","value": "6c3c6facf5598a4b318e138f8c407028", "required": true}                  
+    "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true}
+    "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "value": "1596559467", "required": true}
     "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}\n\n💽 Size = {file_size}\n\n📯Join My group : @hexafreinds", "required": false}                         
   }, 
   "addons": [ ],

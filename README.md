@@ -6,7 +6,7 @@
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pogodrawings/Simple-renamer-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MAHESH-KADALI/Simple-renamer-bot)
 
 ## BotFather Command
 ```

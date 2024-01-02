@@ -7,7 +7,7 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/pogodrawings")
+        InlineKeyboardButton("🤖 SOURCE CODE", url="https://t.me/maheshsirop")
         ],[
         InlineKeyboardButton("🖥️ How To Deploy", url="https://youtube.com/@maheshpoketuber")
     ]])
@@ -18,7 +18,7 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://github.com/pogodrawings>MAHESH</a></b>"                                     
+    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://t.me/maheshsirop>MAHESH</a></b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/hexafreinds")
         ],[
@@ -48,8 +48,8 @@ async def help(bot, msg):
 async def about(bot, msg):
     me=await bot.get_me()
     Master=f"<a href=https://t.me/maheshsirop>MAHESH</a> & <a href=https://t.me/hexafreinds>support group</a>"  
-    Source="<a href=https://github.com/pogodrawings>Click Here</a>"
-    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/pogodrawings>MAHESH</a>\nBot Updates: <a href=https://t.me/hexafreinds>MAHESH™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
+    Source="<a href=https://t.me/maheshsirop>Click Here</a>"
+    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/maheshsirop>MAHESH</a>\nBot Updates: <a href=https://t.me/hexafreinds>MAHESH™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 

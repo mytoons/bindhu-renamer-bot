@@ -8,7 +8,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name="simple-renamer",
+            name="bindhu-renamer",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
@@ -23,7 +23,7 @@ class Bot(Client):
        
     async def stop(self, *args):
        await super().stop()      
-       print("Bot Restarting........")
+       print("Bindhu Renamer Bot Restarting........")
 
 
 bot = Bot()

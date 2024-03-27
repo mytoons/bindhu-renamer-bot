@@ -5,11 +5,11 @@ from config import ADMIN
 
 @Client.on_message(filters.command("start") & filters.private)                             
 async def start_cmd(bot, msg):
-    txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
+    txt="This is bindhu renamer bot. Do you want your own bot? 👇 Click the source code to deploy"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://t.me/maheshsirop")
+        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/MAHESH-KADALI/bindhu-renamer-bot")
         ],[
-        InlineKeyboardButton("🖥️ How To Deploy", url="https://youtube.com/@maheshpoketuber")
+        InlineKeyboardButton("🖥️ How To Deploy", url="https://t.me/maheshsirop")
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -18,7 +18,7 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://t.me/maheshsirop>MAHESH</a></b>"                                     
+    txt=f"hai {msg.from_user.mention} i am bindhu renamer bot with personal usage.\nthis bot is made by <b><a href=https://t.me/maheshsirop>MAHESH</a></b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/hexafreinds")
         ],[
@@ -48,7 +48,7 @@ async def help(bot, msg):
 async def about(bot, msg):
     me=await bot.get_me()
     Master=f"<a href=https://t.me/maheshsirop>MAHESH</a> & <a href=https://t.me/hexafreinds>support group</a>"  
-    Source="<a href=https://t.me/maheshsirop>Click Here</a>"
+    Source="<a href=https://github.com/MAHESH-KADALI/bindhu-renamer-bot>Click Here</a>"
     txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/maheshsirop>MAHESH</a>\nBot Updates: <a href=https://t.me/hexafreinds>MAHESH™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),

@@ -12,11 +12,8 @@ This is a very Simple Telegram Files Rename Bot by [@maheshsirop](https://t.me/m
 ### BotFather Commands:
 ```
 start - get start the bot
-
 rename - replay with file to rename
-
 del - to delete your thumbnail
-
 view - view current thumbnail
 
 ```

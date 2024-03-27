@@ -27,4 +27,4 @@ Press Below Button to Deploy!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/MAHESH-KADALI/bindhu-renamer-bot)
 
-#### MADE WITH ♥️ BY [MAHESH](https://github.com/MAHESH-KADALI) & ANOTHER ❤️ [DINESH](https://t.me/SatoruGojo830)
+#### MADE WITH ♥️ BY [MAHESH](https://github.com/MAHESH-KADALI) & ANOTHER ❤️ [GOJO](https://t.me/SatoruGojo830)

@@ -15,7 +15,6 @@ start - get start the bot
 rename - replay with file to rename
 del - to delete your thumbnail
 view - view current thumbnail
-
 ```
 ### Support Group
 <a href="https://t.me/Hexafreinds"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>

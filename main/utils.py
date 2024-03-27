@@ -33,7 +33,7 @@ async def progress_message(current, total, ud_type, message, start):
 
 
 def humanbytes(size):
-    units = ["Bytes", "KB", "MB", "GB", "tB", "PB", "EB"]
+    units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
     size = float(size)
     i = 0
     while size >= 1024.0 and i < len(units):
@@ -53,6 +53,3 @@ def TimeFormatter(milliseconds: int) -> str:
           ((str(seconds) + "s, ") if seconds else "") + \
           ((str(milliseconds) + "ms, ") if milliseconds else "")
     return tmp[:-2]
-
-
-

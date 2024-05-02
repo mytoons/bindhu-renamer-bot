@@ -27,4 +27,17 @@ Press Below Button to Deploy!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MAHESH-KADALI/bindhu-renamer-bot)
 
+## Deploy in termux
+```
+1| start and fork this repository
+2| fill all variables in config.py
+3| copy your Repository url
+4| git clone your-repo-link
+5| cd bindhu-renamer-bot (if you forked repo use this command. if not use below command cd your-repo-name)
+6| pip install -r requirements.txt
+(if you want to run bot 24/7 even termux is closed run below commands or directly go to 9th step)
+7| install tmux
+8| tmux
+9| python3 bot.py
+```
 #### MADE WITH ♥️ BY [MAHESH](https://github.com/MAHESH-KADALI) & ANOTHER ❤️ [GOJO](https://t.me/SatoruGojo830)

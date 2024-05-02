@@ -31,13 +31,15 @@ Press Below Button to Deploy!
 ```
 1| start and fork this repository
 2| fill all variables in config.py
-3| copy your Repository url
-4| git clone your-repo-link
-5| cd bindhu-renamer-bot (if you forked repo use this command. if not use below command cd your-repo-name)
-6| pip install -r requirements.txt
-(if you want to run bot 24/7 even termux is closed run below commands or directly go to 9th step)
-7| install tmux
-8| tmux
-9| python3 bot.py
+3| apt update & apt upgrade
+4| apt install git
+5| copy your Repository url
+6| git clone your-repo-link
+7| cd bindhu-renamer-bot (if you forked repo use this command. if not use below command cd your-repo-name)
+8| pip install -r requirements.txt
+(if you want to run bot 24/7 even termux is closed run below commands or directly go to 11th step)
+9| install tmux
+10| tmux
+11| python3 bot.py
 ```
 #### MADE WITH ♥️ BY [MAHESH](https://github.com/MAHESH-KADALI) & ANOTHER ❤️ [GOJO](https://t.me/SatoruGojo830)
